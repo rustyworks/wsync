@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wasabi-sync"
+name = "wsync"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -13,3 +13,7 @@ pyqt6 = "^6.6.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+wsync = "wsync.main:main"
